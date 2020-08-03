@@ -10,5 +10,8 @@ class TestStringMethods(unittest.TestCase):
     def test_sample2(self):
         self.assertEqual(pkgexample.helloWorld2(), 499500)
 
+    def test_sum(self):
+        self.assertEqual(pkgexample.sum(5,4), 9)
+
 if __name__ == '__main__':
     unittest.main()

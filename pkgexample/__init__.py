@@ -5,3 +5,6 @@ def helloWorld():
 
 def helloWorld2():
     return np.arange(0,1000).sum()
+
+def sum(a,b):
+    return a+b
